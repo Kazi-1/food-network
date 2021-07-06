@@ -2,8 +2,31 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.header{
+    background-color: orange;
+    color: white;
+    padding: 5px 0px 5px 50px;
+}
+.header ul{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.header ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.header-link a{
+    text-decoration: none;
+    color: white;
+} 
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
 }
 .orange-color {
     color: orange;
@@ -54,6 +77,23 @@ h1{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
+}
+.social-media img{
+    width: 100px;
+    height: 50px;
+}
+.social-media ul{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+.social-media ul li{
+    display: inline;
+    margin: 50px;
+}
+.social-media ul li a{
+    text-decoration: none;
+    display: inline
 }
 footer{
     text-align: center;
